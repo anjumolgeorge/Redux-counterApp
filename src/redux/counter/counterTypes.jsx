@@ -1,3 +1,3 @@
- export const INCREMENT = "INCREMENT"
- export const DECREMENT = "DECREMENT"
- export const INCREMENTBY5 ="INCREMENTBYY5"
+export const INCREMENT = "INCREMENT"
+export const DECREMENT = "DECREMENT"
+export const INCREMENTBY5 ="INCREMENTBYY5"
