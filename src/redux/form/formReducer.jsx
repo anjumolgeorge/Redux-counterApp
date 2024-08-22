@@ -5,13 +5,13 @@ const initialState = {
     age:0
 }
 
- export const formReducer = (state = initialState, {type,payload}) => {
+ export const formReducer = (state = initialState, {type,name,age}) => {
 switch (type) {
     case SUBMIT_FORM:
         return {
             ...state,
-            name:payload.name,
-            age: payload.age
+          name,
+           age
         }
 
     default:
